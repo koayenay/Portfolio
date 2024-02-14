@@ -17,10 +17,10 @@ const About = () => {
           <Info />
 
           <p className='about__description'>
-            I'm a Senior Computer Science student from CSU Northridhge with a
-            keen interest in machine learning, frontend, and backend
-            development. Currently focusing on frontend and backend skills, with
-            plans to explore mobile development.
+            I'm a Senior Computer Science student from CSU Northridge with a
+            keen interest in Data Science, Machine Learning, Frontend, and
+            Backend development. Currently focusing on Frontend and Backend
+            skills, with plans to explore Mobile Development.
           </p>
 
           <a download='' href={CV} className='button button--flex'>
