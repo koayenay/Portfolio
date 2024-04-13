@@ -2,7 +2,8 @@ import Work1 from "../../assets/work1.jpg"
 import Work2 from "../../assets/work2.jpg"
 import Work3 from "../../assets/work3.jpg"
 import Work4 from "../../assets/work4.jpg"
-// import Work5 from "../../assets/work5.jpg"
+import Work5 from "../../assets/work5.jpg"
+import Work6 from "../../assets/work6.jpg"
 
 export const projectsData = [
   {
@@ -35,6 +36,14 @@ export const projectsData = [
     stack: "Python, NumPy, SeaBorn",
     category: "app",
     demo: "https://github.com/koayenay/US-Accidents",
+  },
+  {
+    id: 5,
+    image: Work6,
+    title: "Github Telegram Notifier",
+    stack: "Webhooks, API, TypeScript, NestJS, Nodejs",
+    category: "app",
+    demo: "https://github.com/koayenay/GitNotifiesTele",
   },
 
   // {

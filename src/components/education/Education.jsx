@@ -122,10 +122,12 @@ const Education = () => {
           >
             <div className='education__data'>
               <div>
-                <h3 className='education__title'>Coming Soon</h3>
-                <span className='education__subtitle'>YOUR COMPANY</span>
+                <h3 className='education__title'>
+                  Full Stack Developer (Research Assistant)
+                </h3>
+                <span className='education__subtitle'>ARCS at CSUN</span>
                 <div className='education__calender'>
-                  <i className='uil uil-calendar-alt'></i> 2023-2070
+                  <i className='uil uil-calendar-alt'></i> 2023-Present
                 </div>
               </div>
 

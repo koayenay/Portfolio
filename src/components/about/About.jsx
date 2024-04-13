@@ -20,7 +20,8 @@ const About = () => {
             I'm a Senior Computer Science student from CSU Northridge with a
             keen interest in Data Science, Machine Learning, Frontend, and
             Backend development. Currently focusing on Frontend and Backend
-            skills, with plans to explore Mobile Development.
+            skills, with plans to explore Mobile Development and Cloud Computing
+            Technologies (AWS and Azure).
           </p>
 
           <a download='' href={CV} className='button button--flex'>

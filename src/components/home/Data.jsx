@@ -57,8 +57,8 @@ const Data = () => {
       </h1>
       <h3 className='home__subtitle'>Software Engineer</h3>
       <p className='home__description'>
-        Aspiring software engineer based in Los Angeles, passionate and
-        dedicated to my craft.
+        Aspiring Full Stack Software Engineer based in Los Angeles, passionate
+        and dedicated to my craft.
       </p>
 
       <a href='#contact' className='button button--flex'>
@@ -86,5 +86,3 @@ const Data = () => {
 }
 
 export default Data
-
-// 36:00
