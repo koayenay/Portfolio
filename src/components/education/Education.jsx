@@ -52,7 +52,7 @@ const Education = () => {
                   California State University of Northridge
                 </span>
                 <div className='education__calender'>
-                  <i className='uil uil-calendar-alt'></i> 2022-Present
+                  <i className='uil uil-calendar-alt'></i> 2021-2024
                 </div>
               </div>
 
