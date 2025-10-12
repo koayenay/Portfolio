@@ -4,7 +4,7 @@ import frameworkData from "./frameworkData" // Adjust the path as needed
 const Framework = () => {
   return (
     <div className='skills__content'>
-      <h3 className='skills__title'>Framework</h3>
+      <h3 className='skills__title'>Networking & Infrastructure</h3>
       <div className='skills__box'>
         {frameworkData.map((group) => (
           <div className='skills__group' key={group.groupName}>

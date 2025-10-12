@@ -4,6 +4,12 @@ import AboutImg from "../../assets/prof.jpg"
 import CV from "../../assets/Aye Myint.pdf"
 import Info from "./Info"
 
+const getYearsOfExperience = () => {
+  const startYear = 2020
+  const currentYear = new Date().getFullYear()
+  return currentYear - startYear
+}
+
 const About = () => {
   return (
     <section className='about section' id='about'>
@@ -11,18 +17,39 @@ const About = () => {
       <span className='section__subtitle'>My Introduction</span>
 
       <div className='about__container container grid'>
-        <img src={AboutImg} alt='' className='about__img' />
+        <img src={AboutImg} alt='' className='Arfan Myint — IT Analyst' />
 
         <div className='about__data'>
           <Info />
 
           <p className='about__description'>
-            I'm a Senior Computer Science student from CSU Northridge with a
-            keen interest in Data Science, Machine Learning, Frontend, and
-            Backend development. Currently focusing on Frontend and Backend
-            skills, with plans to explore Mobile Development and Cloud Computing
-            Technologies (AWS and Azure).
+            I’m an <strong>IT Analyst</strong> with {getYearsOfExperience()}{" "}
+            years of hands-on experience managing Microsoft 365, POS systems,
+            network infrastructure, and endpoint security across multi-location
+            enterprises. I specialize in{" "}
+            <strong>automation, system hardening</strong>, and making sure
+            support workflows are efficient, secure, and scalable.
           </p>
+
+          <div className='about__highlights' style={{ marginBottom: "1.5rem" }}>
+            <ul>
+              <li>
+                🔐 Administer M365, Azure AD, Intune, MFA, and Conditional
+                Access
+              </li>
+              <li>
+                🛠 Manage Paytronix, PosiTouch, and online ordering integrations
+              </li>
+              <li>
+                🌐 Configure SonicWall, Meraki, and Ubiquiti networks for 9+
+                locations
+              </li>
+              <li>
+                📋 Build IT SOPs, streamline onboarding, reduce support time by
+                30%
+              </li>
+            </ul>
+          </div>
 
           <a download='' href={CV} className='button button--flex'>
             Download Resume

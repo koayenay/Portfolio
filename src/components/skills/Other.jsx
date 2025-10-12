@@ -3,7 +3,7 @@ import otherData from "./otherData" // Ensure the correct path is used
 
 const Other = () => (
   <div className='skills__content'>
-    <h3 className='skills__title'>Tools</h3>
+    <h3 className='skills__title'>Admin Tools & Security Ops</h3>
     <div className='skills__box'>
       {otherData.map((group) => (
         <div className='skills__group' key={group.groupName}>

@@ -1,18 +1,18 @@
 const frameworkData = [
   {
-    groupName: "Left Skills",
+    groupName: "Networking",
     skills: [
-      { name: "TypeScript", level: "Intermediate" },
-      { name: "ReactJS", level: "Advanced" },
-      { name: "Django", level: "Intermediate" },
+      { name: "SonicWall", level: "Advanced" },
+      { name: "Cisco Meraki", level: "Intermediate" },
+      { name: "Ubiquiti", level: "Intermediate" },
     ],
   },
   {
-    groupName: "Right Skills",
+    groupName: "IT Systems",
     skills: [
-      { name: "Spring", level: "Advanced" },
-      { name: "Mongoose", level: "Basic" },
-      { name: "Learning", level: "Basic" },
+      { name: "POS / Paytronix", level: "Advanced" },
+      { name: "Camera Systems", level: "Advanced" },
+      { name: "Printer / Static IP Setup", level: "Advanced" },
     ],
   },
 ]

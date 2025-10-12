@@ -1,18 +1,18 @@
 const backendData = [
   {
-    groupName: "Left Skills",
+    groupName: "Infrastructure",
     skills: [
-      { name: "NodeJS", level: "Intermediate" },
-      { name: "C++", level: "Intermediate" },
-      { name: "Java", level: "Intermediate" },
+      { name: "Azure AD", level: "Intermediate" },
+      { name: "Intune", level: "Intermediate" },
+      { name: "RBAC / Conditional Access", level: "Intermediate" },
     ],
   },
   {
-    groupName: "Right Skills",
+    groupName: "Scripting & Provisioning",
     skills: [
-      { name: "Python", level: "Advanced" },
-      { name: "MongoDB", level: "Basic" },
-      { name: "SQL", level: "Basic" },
+      { name: "PowerShell", level: "Intermediate" },
+      { name: "MFA / SSO", level: "Advanced" },
+      { name: "User Lifecycle", level: "Advanced" },
     ],
   },
 ]

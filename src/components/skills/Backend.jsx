@@ -4,7 +4,7 @@ import backendData from "./backendData" // Ensure the correct path is used
 const Backend = () => {
   return (
     <div className='skills__content'>
-      <h3 className='skills__title'>Backend</h3>
+      <h3 className='skills__title'>Identity & Access Management</h3>
       <div className='skills__box'>
         {backendData.map((group) => (
           <div className='skills__group' key={group.groupName}>

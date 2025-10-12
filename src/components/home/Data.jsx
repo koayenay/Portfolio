@@ -55,10 +55,11 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className='home__subtitle'>Software Engineer</h3>
+      <h3 className='home__subtitle'>IT Analyst</h3>
       <p className='home__description'>
-        Aspiring Full Stack Software Engineer based in Los Angeles, passionate
-        and dedicated to my craft.
+        IT Systems & Support Specialist with experience in Microsoft 365, Azure
+        AD, SonicWall, and enterprise POS infrastructure. I streamline
+        operations, HRIS, secure networks, and deliver fast, documented support.
       </p>
 
       <a href='#contact' className='button button--flex'>

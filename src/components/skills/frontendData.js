@@ -1,18 +1,18 @@
 const frontendData = [
   {
-    groupName: "Left Skills",
+    groupName: "Operating Systems",
     skills: [
-      { name: "HTML/CSS", level: "Advanced" },
-      { name: "Materialize", level: "Advanced" },
-      { name: "JavaScript", level: "Advanced" },
+      { name: "Windows", level: "Advanced" },
+      { name: "macOS", level: "Advanced" },
+      { name: "Linux", level: "Intermediate" },
     ],
   },
   {
-    groupName: "Right Skills",
+    groupName: "Workplace Tools",
     skills: [
-      { name: "Bootstrap", level: "Intermediate" },
-      { name: "ReactJS", level: "Intermediate" },
-      { name: "TypeScript", level: "Intermediate" },
+      { name: "Microsoft 365", level: "Advanced" },
+      { name: "Outlook / Teams", level: "Advanced" },
+      { name: "SharePoint / OneDrive", level: "Intermediate" },
     ],
   },
 ]

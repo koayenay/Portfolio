@@ -1,26 +1,18 @@
 const otherData = [
   {
-    groupName: "Left Skills",
+    groupName: "IT Admin Tools",
     skills: [
-      { name: "Linux", level: "Advanced" },
-      { name: "Docker", level: "Advanced" },
-      { name: "Kubernetes", level: "Intermediate" },
-      { name: "Jira", level: "Intermediate" },
-      { name: "RESTful", level: "Intermediate" },
-      { name: "GraphQL", level: "Intermediate" },
-      { name: "MySQL", level: "Intermediate" },
+      { name: "Zendesk", level: "Intermediate" },
+      { name: "TalentReef", level: "Intermediate" },
+      { name: "Smartsheet", level: "Intermediate" },
     ],
   },
   {
-    groupName: "Right Skills",
+    groupName: "Security & Monitoring",
     skills: [
-      { name: "Kafka", level: "Intermediate" },
-      { name: "Postman", level: "Intermediate" },
-      { name: "Git/Github", level: "Intermediate" },
-      { name: "VmWare", level: "Intermediate" },
-      { name: "CI/CD", level: "Intermediate" },
-
-      { name: "Firebase", level: "Intermediate" },
+      { name: "Firewall Config", level: "Intermediate" },
+      { name: "Device Onboarding", level: "Advanced" },
+      { name: "Documentation / SOPs", level: "Advanced" },
     ],
   },
 ]
